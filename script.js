@@ -54,7 +54,7 @@ function stopWatch(){
     }
 
     //Display updated time values to user
-    document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
+    document.getElementById("display").innerHTML = displayMinutes + ":" + displaySeconds;
 
 }
 
@@ -87,7 +87,7 @@ function reset(){
     seconds = 0;
     minutes = 0;
     hours = 0;
-    document.getElementById("display").innerHTML = "00:00:00";
+    document.getElementById("display").innerHTML = "00:00";
     document.getElementById("startStop").innerHTML = "𝙎𝙩𝙖𝙧𝙩";
 
 }
