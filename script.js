@@ -66,14 +66,14 @@ function startStop(){
 
         //Start the stopwatch (by calling the setInterval() function)
         interval = window.setInterval(stopWatch, 1000);
-        document.getElementById("startStop").innerHTML = "𝙎𝙩𝙤𝙥";
+        document.getElementById("startStop").innerHTML = "Stop";
         status = "started";
 
     }
     else{
 
         window.clearInterval(interval);
-        document.getElementById("startStop").innerHTML = "𝙋𝙡𝙖𝙮";
+        document.getElementById("startStop").innerHTML = "Play";
         status = "stopped";
 
     }
@@ -88,6 +88,6 @@ function reset(){
     minutes = 0;
     hours = 0;
     document.getElementById("display").innerHTML = "00:00";
-    document.getElementById("startStop").innerHTML = "𝙋𝙡𝙖𝙮";
+    document.getElementById("startStop").innerHTML = "Play";
 
 }
