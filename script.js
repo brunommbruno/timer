@@ -73,7 +73,7 @@ function startStop(){
     else{
 
         window.clearInterval(interval);
-        document.getElementById("startStop").innerHTML = "𝙎𝙩𝙖𝙧𝙩";
+        document.getElementById("startStop").innerHTML = "𝙋𝙡𝙖𝙮";
         status = "stopped";
 
     }
@@ -88,6 +88,6 @@ function reset(){
     minutes = 0;
     hours = 0;
     document.getElementById("display").innerHTML = "00:00";
-    document.getElementById("startStop").innerHTML = "𝙎𝙩𝙖𝙧𝙩";
+    document.getElementById("startStop").innerHTML = "𝙋𝙡𝙖𝙮";
 
 }
