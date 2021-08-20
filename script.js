@@ -66,14 +66,14 @@ function startStop(){
 
         //Start the stopwatch (by calling the setInterval() function)
         interval = window.setInterval(stopWatch, 1000);
-        document.getElementById("startStop").innerHTML = "Stop";
+        document.getElementById("startStop").innerHTML = "𝙎𝙩𝙤𝙥";
         status = "started";
 
     }
     else{
 
         window.clearInterval(interval);
-        document.getElementById("startStop").innerHTML = "Start";
+        document.getElementById("startStop").innerHTML = "𝙋𝙡𝙖𝙮";
         status = "stopped";
 
     }
